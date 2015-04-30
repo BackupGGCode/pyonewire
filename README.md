@@ -15,6 +15,7 @@ Pyonewire works on any system that supports:
 If you have these packages, then you do not need additional drivers to use pyonewire.
 
 # Example #$ python
+```
 >>> from pyonewire.master import ds2490
 >>> master = ds2490.DS2490Master()
 >>> for ib in master.Search(master.SEARCH_NORMAL):
